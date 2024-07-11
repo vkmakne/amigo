@@ -1,0 +1,631 @@
+
+.navbar a:hover , li:hover{
+    color: red;
+    background-color: transparent;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* margin right for the ul in the navbar */
+
+.navbar-nav {
+    margin-right: 10px !important;
+}
+
+/* margin for the navbar anchor tags */
+
+.navbar a{
+    margin: 15px 20px;
+}
+
+/* class for a */
+
+.nav-link{
+    color: black;
+}
+ 
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;    
+}
+
+.nav-link:focus{
+    color: black;
+}
+.navbar {
+    background-color: white;
+}
+.bootstrap {
+    margin-left: 50px;
+}
+
+
+/* below 2  handles toggle button */
+
+.navbar-toggler-icon{
+    background-image: url("menu.png");
+    background-color: transparent;
+    border: none;
+    transform: scale(1.5);
+
+}
+.navbar-toggler{
+    border: none;
+    border-color: transparent;
+}
+
+/* nav section ends */
+.container1 {
+    background-color: #e4f7f2;
+    position: relative;
+    padding-top: 100px;
+    padding: 5%;
+    text-align: left;
+}
+.container1 img{
+    
+    width: 96%;
+}
+.container1 div1{
+    padding-left: 3%;
+}
+ 
+.container1 h1{
+    font-size: 3rem;
+     line-height: 4rem;
+    font-weight: bolder;
+}   
+ 
+.col-lg-6{
+    padding: 1% ;
+}
+.amigo-fnt{
+    color: #409187;
+    
+     
+}
+
+.div1-btn{
+    background: #2bc4ad;
+    background-image: -webkit-linear-gradient(top, #ed7640, #ed7640);
+    background-image: -moz-linear-gradient(top, #ed7640, #ed7640);
+    background-image: -ms-linear-gradient(top, #ed7640, #ed7640);
+    background-image: -o-linear-gradient(top, #ed7640, #ed7640);
+    background-image: linear-gradient(to bottom, #ed7640, #ed7640);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    box-shadow: 2px 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #100e0e;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    
+}
+ 
+
+.div1-btn a{
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    
+}
+.div1-btn:hover{
+    background: #f34928;
+    background-image: -webkit-linear-gradient(top, #f34928, #f34928);
+    background-image: -moz-linear-gradient(top, #f34928, #f34928);
+    background-image: -ms-linear-gradient(top, #f34928, #f34928);
+    background-image: -o-linear-gradient(top, #f34928, #f34928);
+    background-image: linear-gradient(to bottom, #f34928, #f34928);
+    text-decoration: none;
+    color: #080505;
+}
+/* first section ends here */
+
+/* handles responsiveness */
+
+@media(min-width: 1350px){
+    .container1 h1{
+        font-size: 4rem;
+        line-height: 130%;
+    }
+    .container1 img{
+        margin-top: -7%;
+        margin-left: 7%;
+    }
+    .container1 p{
+        font-size: 2rem;
+    }
+    .div1-btn a{
+        font-size: 2rem;
+    }
+    .div1-btn{
+        margin-top: 4%;
+    }
+    navbar img{
+        width: 50%;
+    }
+    .bootstrap{
+        width: 5%;
+        height: 2%;
+        margin-left: 100px;
+    }
+    .navbar a{
+        font-size: 1.5rem;
+    }
+    
+}
+
+/* second section starts */
+
+/* trending blogs  */
+ 
+.card img{
+    width: 100%;
+}
+
+#blogs{
+    padding-top: 10%;
+}
+
+.blogs-heading{
+    font-size: 3rem;
+    font-weight: 600;
+}
+/* second sections ends */
+
+  /* why use amigo starts  */
+
+  .main-container h2{
+    color: black;
+    font-weight: bolder;
+  }
+  .main-container i{
+    color: rgb(14, 242, 204);
+  }
+  #why-use-amigo{
+    background-color: #e8f6f2;
+    padding-top: 6%;
+    padding-bottom: 1%;
+  }
+  
+  /* images styles */
+
+  .p6{
+    width: 35%;
+  }
+  .college{
+    width: 30%;
+  }
+  .approved{
+    width: 30%;
+  }
+ 
+  .sect-div{
+    padding-top: 5%;
+    padding-bottom: 4%;
+  }
+ 
+
+  /* why use amigo ends  */
+
+   /* About Amigo starts  */
+ 
+
+    .about-amigo{
+        padding-top: 5%;
+    }
+    #aboutamigo{
+        background-color: #fbf3eb;
+    }
+
+    .services-section .card-box{
+        padding: 4rem  2.4rem 3rem!important;
+        border-radius: .5rem!important;
+    }
+    .services-section{
+        padding: 6rem 0 3rem 0!important;
+    }
+    .common-heading {
+        font-size: 4rem;
+        color: #2bc4ad;
+        font-weight: bolder;
+        margin-top: -3%;
+        margin-bottom: 4%;
+    }
+    
+    
+
+   /* About Amigo ends  */
+
+h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black; 
+}
+ 
+
+/* trending projects starts */
+
+#trends-projects h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.trends-h1-head{
+    font-weight: bolder;
+    color: #2bc4ad;
+}
+#trends-projects{
+    padding-top: 10%;
+}
+.trends-heading{
+    padding-bottom: 3%;
+    margin-bottom: 4%;
+}
+
+.trends-img-div img{
+     width: 100%;
+}
+
+.txt h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+.txt p{
+    font-family: cursive;
+}
+
+.sect-div-2{
+    padding-top: 5%;
+    padding-bottom: 4%;
+    border-radius: 4%;
+    margin: 2% 0 2% 0;
+  }
+.my-spc{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#trends-projects button{
+    margin-top: 11%;
+    padding: 2% 9% 2% 9%;
+}
+
+/* trending projects ends */
+ 
+
+/*--------------------------------------------------------------
+# How Amigo Help you
+--------------------------------------------------------------*/
+.skills{
+    background-color: #eeecff;
+    text-align: left;
+    padding-bottom: 6%;
+    padding-top: 6%;
+  }
+  .skills h1{
+    color: black;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 50px;
+  
+  }
+  .skills p{
+    color:#58595D;
+    font-size:20px;
+    font-weight: 600;
+    line-height:34px;
+    margin-top:30px;
+  }
+  .skills h2{
+    color:#0e0e0e;
+    font-size:1.8rem;
+    line-height:23px;
+    font-weight : bolder;
+  }
+  .skills h3{
+    color:#58595d;
+    font-size:18px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-top: 8px ; 
+  }
+  
+  #skills button{
+    padding: 4px 12px 4px 12px;
+  }
+  
+  /*--------------------------------------------------------------
+  # ends 
+  --------------------------------------------------------------*/
+
+
+  #thought {
+    background: #f7762c;
+  }
+  
+  #thought .container {
+    padding-top: 72px;
+  }
+  
+  #thought h1 {
+    
+    font-size: 4.5rem;
+    font-weight: bolder;
+    line-height: 74px;
+    color: #f6f0f0;
+    text-align: left;
+  }
+  #thought h2 {
+     
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 30px; 
+    color: #f6f0f0;
+    text-align: left;
+  }
+
+  /* using id */
+  #thought{
+    padding: 1%;
+  }
+ 
+  .thought-h2{
+    padding: 7% 0 2% 0;
+  }
+ 
+.div2-btn a{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.div2-btn{
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    box-shadow: 2px 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000 ;
+    font-size: 20px;
+    
+    text-decoration: none;
+    width: 30%;
+    padding: 1% 1% 1% 1%;
+}
+
+.div2-btn:hover{
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #eeecfd, #eeecfd);
+    background-image: -moz-linear-gradient(top, #eeecfd, #eeecfd);
+    background-image: -ms-linear-gradient(top, #eeecfd, #eeecfd);
+    background-image: -o-linear-gradient(top, #eeecfd, #eeecfd);
+    background-image: linear-gradient(to bottom, #eeecfd, #eeecfd);
+    text-decoration: none;
+    color: #000000;
+}
+/* boot strap overriding*/
+ 
+ 
+
+/* footer starts */
+
+
+.mx-auto img{
+    width: 80%;
+    position: relative;
+    
+    bottom: 43px;
+}
+
+.make-in-india-p{
+    position: relative;
+    bottom: 55px;
+    right: 5%;
+}
+
+#footer-container{
+    
+    background-color:white !important;
+    color: black;
+}
+.footer-quote{
+    font-size: 13px;
+    text-align: left;
+}
+
+
+
+/* footer ends */
+  
+/* copyright starts */
+
+.copyright img{
+    width: 24%;
+}
+
+#footer-container a:hover{
+    color: rgb(11, 57, 224);
+}
+
+.login-copy{
+    position: relative;
+    top: 54px;
+    left: 0px;
+}
+
+.copy-p{
+    position: relative;
+    bottom: 28px;
+    font-size: 11px;
+}
+.login-copy button{
+    padding: 7px 20px 7px 20px;
+}
+.one{
+    margin-left: 56%;
+    margin-right: 5%;
+}
+
+ 
+/* copyright ends */
+ 
+
+/* trends and insights starts */
+
+.card img{
+    width: 100%;
+}
+
+#blogs-2{
+    padding-top: 7%;
+    padding-bottom: 8%;
+}
+
+.blogs-heading-2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+ 
+ 
+ 
+/* trends and insights ends */
+ 
+ 
+/* table starts */
+
+#amigo-works{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.amigo-works-head{
+    padding-bottom: 4%;
+}
+.table-h1{
+    margin-left: 10%;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+.table-h2{
+    margin-left: 10%;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 25px;
+}
+.table-h3-1{
+    margin-bottom: 2%;
+}
+.table-h3-2{
+    margin-top: -139%;
+}
+
+.table-h3-3{
+    margin-top: -134%;
+}
+
+
+.table-h3-4{
+    margin-top: 2%;
+}
+
+ 
+table tr:hover{
+    background-color: rgb(187, 240, 228);
+}
+
+ 
+
+
+
+/* table ends */
+ 
+
+/* feedback starts */
+
+.row-1{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+     
+  }
+  .row-1::-webkit-scrollbar{
+    display: none;
+  }
+ 
+  .card-1 {
+    /*float: left;*/
+    max-width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    
+  }
+  
+  .card-1 > img {
+    margin-bottom: .75rem;
+    width: 100%;
+    
+  }
+  
+  .card-text-1 {
+    font-size: 85%;
+  }
+  #feedback{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+  .feed-heading{
+    padding-bottom: 5%;
+    
+  }
+  .feed-heading h1{
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+/* feedback ends */
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+  
+  
